@@ -41,6 +41,22 @@ Create React App - <https://create-react-app.dev/>
 
 ## React Fundamentals
 
+**Create element function** - _createElement_
+
+- Capital letter
+- Must return something
+- JSX syntax (return html)
+
+**JSX Rules**
+
+- return single element
+- Fragment - lets us group elements without adding extra nodes `<React.Fragment>..Rest of the return</<React.Fragment>` or `<>..Rest of the return</>`
+- camelCase property naming convention
+
+**Nest Components**
+
+React Developer Tools - <https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi>
+
 ## Vite
 
 _Vite_ - <https://vite.dev/>: (French word for "quick", pronounced /vit/, like "veet") is a build tool that aims to provide a faster and leaner development experience for modern web projects.
