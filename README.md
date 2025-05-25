@@ -17,6 +17,8 @@ _Practice_: Apply the knowledge by building bunch of cool projects
 - _Youtube channel_: Coding Addict
 - _Playlist_: JacaScript Nuggets
 
+---
+
 ## Dev Environment
 
 Visual Studio Code - <https://code.visualstudio.com/>
@@ -39,6 +41,8 @@ Create React App - <https://create-react-app.dev/>
 
 `npm run build`- Bundles the app into static files for production.
 
+---
+
 ## React Fundamentals
 
 **Create element function** - _createElement_
@@ -56,6 +60,8 @@ Create React App - <https://create-react-app.dev/>
 **Nest Components**
 
 React Developer Tools - <https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi>
+
+---
 
 ## Vite
 
