@@ -14,6 +14,8 @@ _Practice_: Apply the knowledge by building bunch of cool projects
 
 **Requirements**
 
+- _HTML & CSS_: Familiar with common elements - div, section, navbar. Understand primary styling principles
+- _JavaScript_: Arrow functions, array methods, spread operator, rest operator, destructuring etc.
 - _Youtube channel_: Coding Addict
 - _Playlist_: JacaScript Nuggets
 
@@ -45,11 +47,84 @@ Create React App - <https://create-react-app.dev/>
 
 ## React Fundamentals
 
+**Folder Structure**
+
+_node_modules_: Contains all dependencies required by the app. Main dependencies also listed in package.json
+
+_public_: Contains static assets including index.html (page template)
+
+- index.html
+  - title
+  - fonts
+  - css
+  - favicon
+  - id="root" - our entire app
+
+_src_: In simplest form it's the brain of our app. This is where we will do all of our work. src/index.js is the JavaScript entry point.
+
+_.gitignore_: Specifies which files source control (Git) should ignore
+
+_package.json_: Every Node.js project has a package.json and it contains info about our project, for example list of dependencies and scripts
+
+_package-lock.json_: A snapshot of the entire dependency tree
+
+_README.md_: The markdown file where you can share more info about the project for example build instructions and summary
+
+**Remove Boilerplate**
+
+- remove src folder
+- create src folder
+  - create index.js inside src
+
+**Extensions and settings.json (VS CODE)**
+
+- Auto Rename Tag
+- Highlight Matching Tag
+  - customize in settings.json
+- Prettier
+  - format on save
+  - format on paste
+  - Default Formatter (Prettier - Code formatter)
+
+settings.json
+
+```json
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true,
+    "prettier.semi": false,
+```
+
+- Emmet
+
+settings.json
+
+```json
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+```
+
+- ES7 Snippets
+  - rafce (arrow func with export)
+  - rfce (regular func with export )
+  - same as the file name
+  - react auto import
+    - uncheck
+    - React Snippets › Settings: Import React On Top
+
 **Create element function** - _createElement_
 
 - Capital letter
 - Must return something
 - JSX syntax (return html)
+
+```js
+const Greeting = () => {
+  return React.createElement("h2", {}, "hello world");
+};
+```
 
 **JSX Rules**
 
