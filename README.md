@@ -210,7 +210,7 @@ const Greeting = () => {
 
 <https://www.netlify.com/>
 
-## BSection 4: Backroads Application
+## Section 4: Backroads Application ?
 
 ## Section 5: VITE
 
@@ -230,3 +230,9 @@ _Vite_ - <https://vite.dev/>: (French word for "quick", pronounced /vit/, like "
 `npm create vite@latest` or `npm create vite@latest my-react-app -- --template react`
 
 ## Section 6: React Hooks and Advanced Topics
+
+**76. Intro**
+
+_Hooks:_ useState, useEffect, useRef, useContext, useRender, etc
+
+_Forms:_ controlled/uncontrolled inputs, value, onChange, FormData API
